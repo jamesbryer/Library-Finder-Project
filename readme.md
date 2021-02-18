@@ -1,4 +1,4 @@
-# TODO: PROJECT NAME HERE
+# TODO: A TEAM PROJECT
 
 TODO: Brief outline of your project describing the dataset
 
