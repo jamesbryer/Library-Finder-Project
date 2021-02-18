@@ -1,0 +1,22 @@
+{
+  "name": "a-team-project",
+  "version": "1.0.0",
+  "description": "TODO: Brief outline of your project describing the dataset",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesbryer/A-Team-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesbryer/A-Team-Project/issues"
+  },
+  "homepage": "https://github.com/jamesbryer/A-Team-Project#readme"
+}
