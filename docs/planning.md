@@ -3,18 +3,21 @@
 ## Business Case
 
 ### Problem statement
-TODO: Replace the example text like this with text that describes your project. What is the problem to be addressed?<
+People are bored in Lockdown and have decided they want to start reading more books, therefore they want to know where their nearest library is. We will develop a simple app that helps users find their nearest Library.
 
 ### Business benefits
-TODO: List high-level benefits that this product will provide.
+Users will be able to find their nearest library very easily.
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
+Google maps will also show surrounding libraries, however results can be cluttered with other surrounding points of interest.
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+Especially during covid-19 pandemic, opening hours and availability can vary and it is possible the data can become outdated.
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
+1. have user friendly interface
+2. take location input from user
+3. access library data
+4. show library data in order of relevance (nearest first)
 
-![Insert your Context Diagram Here](images/context.png)
+![Insert your Context Diagram Here](images/ContextDiagram.png)
