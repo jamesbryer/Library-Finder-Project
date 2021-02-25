@@ -9,9 +9,6 @@ People living in Bristol that need to find their local Library.
 As a Bristol local, I want to find my local Library, so that I can go get a book to read.
 
 ### Use Cases
-TODO: Describe each use case (one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
 
 | UC1 | Find nearest Library | 
 | --- | -------------------- |
