@@ -1,4 +1,4 @@
-# Project Proposal
+# Library Finder
 
 ## Business Case
 
