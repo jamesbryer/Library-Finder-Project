@@ -1,6 +1,6 @@
-# A TEAM PROJECT
+# Library Finder
 
-TODO: Brief outline of your project describing the dataset
+TODO: Build a web app that helps users find libraries near them, using Library Data from Bristol Open Data.
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
