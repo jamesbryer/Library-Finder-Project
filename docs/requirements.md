@@ -12,13 +12,13 @@ As a Bristol local, I want to find my local Library, so that I can go get a book
 
 | UC1 | Find nearest Library | 
 | --- | -------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Perform a location search to provide nearest libraries |
+| **Actors** | Bristol local user |
+| **Assumptions** | User is wanting to find libraries that are stored on Bristol Open Data</td></tr>
+| **Steps** | User enters their search location and radius |
+| **Variations** | User incorrectly enters location, validation needed |
+| **Non-functional** | System should limit the entry to postcode and address |
+| **Issues** | Decide whether to use geolocation or manual entry |
 
 | UC2 | List Libraries | 
 | --- | -------------- |
