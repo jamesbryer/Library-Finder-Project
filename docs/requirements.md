@@ -11,7 +11,7 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 ### Use Cases
 
 | UC1 | See a list of nearest Libraries | 
-| --- | -------------------- |
+| --- | ------------------------------- |
 | **Description** | Perform a location search to provide nearest libraries |
 | **Actors** | Library User |
 | **Assumptions** | Library User is wanting to find libraries that are stored on Bristol Open Data</td></tr>
@@ -21,7 +21,7 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 | **Issues** | Decide whether to use geolocation or manual entry |
 
 | UC2 | See nearest Libraries on a map | 
-| --- | --------------------------------- |
+| --- | ------------------------------ |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
@@ -31,7 +31,7 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | UC3 | See opening times of nearest Libraries | 
-| --- | ------------------------------------- |
+| --- | -------------------------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
