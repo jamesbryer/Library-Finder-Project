@@ -10,7 +10,7 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 
 ### Use Cases
 
-| UC1 | Find nearest Library | 
+| UC1 | See a list of nearest Libraries | 
 | --- | -------------------- |
 | **Description** | Perform a location search to provide nearest libraries |
 | **Actors** | Library User |
