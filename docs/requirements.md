@@ -20,7 +20,7 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 | **Non-functional** | System should limit the entry to postcode and address |
 | **Issues** | Decide whether to use geolocation or manual entry |
 
-| UC2 | Get directions to nearest Library | 
+| UC2 | See nearest Library on a map | 
 | --- | --------------------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
