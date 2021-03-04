@@ -6,9 +6,9 @@
 Library User living in Bristol.
 
 ### User stories
-Story 1: As a library user, I want to find my nearest libraries so that I can find the book I want.
-Story 2: As a library user, I want my nearest libraries marked on a map so that I can find the directions to get there from my present location.
-Story 3: As a library user, I want to see the opening times of my local libraries so that I can plan when to visit.
+Story 1: As a library user, I want to find my nearest libraries so that I can find the book I want.  
+Story 2: As a library user, I want my nearest libraries marked on a map so that I can find the directions to get there from my present location.  
+Story 3: As a library user, I want to see the opening times of my local libraries so that I can plan when to visit.  
 ### Use Cases
 
 | UC1 | See a list of nearest Libraries | 
@@ -23,13 +23,13 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 
 | UC2 | See nearest Libraries on a map | 
 | --- | ------------------------------ |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description** | Display the nearest libraries to the user on a map of the local area |
+| **Actors** | Library User |
+| **Assumptions** | The Library User wants to know the best possilbe routes to their local libraries </td></tr>
+| **Steps** | <ol><li>Library user enters their postcode and radius</li><li>Program pulls data from Open Data Bristol and Google Maps</li><li>Program displays library locations from ODB on the map from Google Maps</li></ol> |
+| **Variations** | <ol><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ol> |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Issues** | Lack of experience relating to Google Maps' API could raise problems during development. |
 
 | UC3 | See opening times of nearest Libraries | 
 | --- | -------------------------------------- |
