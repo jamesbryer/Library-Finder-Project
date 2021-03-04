@@ -15,7 +15,10 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 | **Description** | Perform a location search to provide nearest libraries |
 | **Actors** | Library User |
 | **Assumptions** | Library User is wanting to find libraries that are stored on Bristol Open Data</td></tr>
-| **Steps** | Library User enters their search location and radius |
+| **Steps** | 1.
+2.
+3.
+4.Library User enters their search location and radius |
 | **Variations** | Library User incorrectly enters location, validation needed |
 | **Non-functional** | System should limit the entry to postcode and address |
 | **Issues** | Decide whether to use geolocation or manual entry |
