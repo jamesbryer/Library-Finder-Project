@@ -6,8 +6,9 @@
 Library User living in Bristol.
 
 ### User stories
-As a Library User, I want to find my local Library, so that I can get a book to read. I would like to see second and third closest libraries to me as well so that I can go to a different library should my nearest one be closed, or not have the desired book in stock.
-
+Story 1: As a library user, I want to find my nearest libraries so that I can find the book I want.
+Story 2: As a library user, I want my nearest libraries marked on a map so that I can find the directions to get there from my present location.
+Story 3: As a library user, I want to see the opening times of my local libraries so that I can plan when to visit.
 ### Use Cases
 
 | UC1 | See a list of nearest Libraries | 
