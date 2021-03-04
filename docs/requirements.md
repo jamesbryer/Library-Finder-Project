@@ -20,8 +20,8 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 | **Non-functional** | System should limit the entry to postcode and address |
 | **Issues** | Decide whether to use geolocation or manual entry |
 
-| UC2 | List Libraries | 
-| --- | -------------- |
+| UC2 | Get directions to nearest Library | 
+| --- | --------------------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
@@ -30,8 +30,8 @@ As a Library User, I want to find my local Library, so that I can get a book to 
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-| UC3 | Select desired Library | 
-| --- | ---------------------- |
+| UC3 | Find opening times of nearest Library | 
+| --- | ------------------------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
