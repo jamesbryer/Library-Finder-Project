@@ -6,7 +6,7 @@
 Library User living in Bristol.
 
 ### User stories
-As a Library User, I want to find my local Library, so that I can get a book to read.
+As a Library User, I want to find my local Library, so that I can get a book to read. I would like to see second and third closest libraries to me as well so that I can go to a different library should my nearest one be closed, or not have the desired book in stock.
 
 ### Use Cases
 
