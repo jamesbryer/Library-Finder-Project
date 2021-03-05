@@ -18,7 +18,6 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Assumptions** | Library User wants to know if there are any Libraries nearby</td></tr>
 | **Steps** | <ol><li>Library User enters their search location and radius</li><li>Program pulls all libraries from Bristol Open Data that are within the search radius</li><li>Program displays libraries in order of nearest first</li></ol>|
 | **Variations** | <ol><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ol> |
-| **Non-functional** |  |
 | **Issues** | There may be no results within set search radius |
 
 | UC2 | See nearest Libraries on a map | 
@@ -28,7 +27,6 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Assumptions** | The Library User wants to know the best possible routes to their local libraries </td></tr>
 | **Steps** | <ol><li>Library user enters their postcode and radius</li><li>Program pulls data from Open Data Bristol and Google Maps</li><li>Program displays library locations from ODB on the map from Google Maps</li></ol> |
 | **Variations** | <ol><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ol> |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | Lack of experience relating to Google Maps' API could raise problems during development. |
 
 | UC3 | See opening times of nearest Libraries | 
@@ -38,7 +36,6 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
