@@ -17,7 +17,7 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Actors** | Library User |
 | **Assumptions** | Library User wants to know if there are any Libraries nearby</td></tr>
 | **Steps** | <ol><li>Library User enters their search location and radius</li><li>Program pulls all libraries from Bristol Open Data that are within the search radius</li><li>Program displays libraries in order of nearest first</li></ol>|
-| **Variations** | <ol><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ol> |
+| **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
 | **Issues** | There may be no results within set search radius |
 
 | UC2 | See nearest Libraries on a map | 
