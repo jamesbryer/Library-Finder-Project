@@ -31,12 +31,12 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 
 | UC3 | See opening times of nearest Libraries | 
 | --- | -------------------------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Display Contact Information for a Specified Library |
+| **Actors** | Library User |
+| **Assumptions** | The Library User has used the website to find the library they would like to get information about.</td></tr>
+| **Steps** | <ol><li>User picks specified library from list previously displayed.</li><li>Programs pulls data from Open Data Bristol about the Library</li><li>Program displays contact information and address to the Library User</li> |
+| **Variations** | Link from map page for same function |
+| **Issues** | Open Data Bristol may have no/partial data about chosen Library |
 
 
 ![Insert your Use-Case Diagram Here](images/ContextDiagram.png)
