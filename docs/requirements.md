@@ -26,7 +26,7 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Actors** | Library User |
 | **Assumptions** | The Library User wants to know the best possible routes to their local libraries </td></tr>
 | **Steps** | <ol><li>Library user enters their postcode and radius</li><li>Program pulls data from Open Data Bristol and Google Maps</li><li>Program displays library locations from ODB on the map from Google Maps</li></ol> |
-| **Variations** | <ol><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ol> |
+| **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
 | **Issues** | Lack of experience relating to Google Maps' API could raise problems during development. |
 
 | UC3 | See opening times of nearest Libraries | 
@@ -34,7 +34,7 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Description** | Display Contact Information for a Specified Library |
 | **Actors** | Library User |
 | **Assumptions** | The Library User has used the website to find the library they would like to get information about.</td></tr>
-| **Steps** | <ol><li>User picks specified library from list previously displayed.</li><li>Programs pulls data from Open Data Bristol about the Library</li><li>Program displays contact information and address to the Library User</li> |
+| **Steps** | <ol><li>User picks specified library from list previously displayed.</li><li>Programs pulls data from Open Data Bristol about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
 | **Variations** | Link from map page for same function |
 | **Issues** | Open Data Bristol may have no/partial data about chosen Library |
 
