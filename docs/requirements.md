@@ -39,7 +39,7 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Issues** | Open Data Bristol may have no/partial data about chosen Library |
 
 
-![Insert your Use-Case Diagram Here](images/ContextDiagram.png)
+![Insert your Use-Case Diagram Here](images/use-case.png)
 
 ## Software Requirements Specification
 ### Functional requirements
