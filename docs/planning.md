@@ -13,7 +13,7 @@ People are bored in Lockdown and have decided they want to start reading more bo
 Google maps will also show nearby libraries, however results can be cluttered with other surrounding points of interest.
 
 ### Expected Risks
-Especially during covid-19 pandemic, opening hours and availability can vary and it is possible the data can become outdated.
+Especially during covid-19 pandemic, opening hours and availability can vary and it is possible the libraries could be closed.
 
 ## Project Scope
 1. have user friendly interface
