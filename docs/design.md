@@ -1,10 +1,13 @@
 # Design
 
 ## Behavioural design
-TODO: Describe a concrete scenario for each use-case. 
-Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
+UC1: Library user access web page, they want to see their nearby libraries so they enter their location and click to get results. The system then accesses Bristol Open Data and gets the results within the search radius, then the web page will display these results in a table.
+(images/UC1SequenceDiagram.png)
 
-![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC1SequenceDiagram.png)
+UC2:
+
+
+UC3:
 
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.
