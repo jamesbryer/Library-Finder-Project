@@ -54,4 +54,4 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 ### Non-Functional Requirements
 * NFR1: The system must produce accurate results (from UC1)
 * NFR2: The system shall return results efficiently (from UC2)
-* NFR3: The system shall have a user friendly interface
+* NFR3: The system shall have a user friendly interface (from all use cases)
