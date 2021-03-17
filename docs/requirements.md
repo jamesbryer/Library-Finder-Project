@@ -8,7 +8,7 @@ Library User living in Bristol.
 ### User stories
 Story 1: As a library user, I want to find my nearest libraries so that I can find the book I want.  
 Story 2: As a library user, I want my nearest libraries marked on a map so that I can find the directions to get there from my present location.  
-Story 3: As a library user, I want to see the opening times of my local libraries so that I can plan when to visit.  
+Story 3: As a library user, I want to see the contact information of my local libraries so that I can plan a visit.  
 ### Use Cases
 
 | UC1 | See a list of nearest Libraries | 
