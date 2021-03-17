@@ -12,5 +12,4 @@ UC3:
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.
 
-![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
-TODO: repeat as necessary
+![Insert your wireframe screenshots for each use-case here](images/Wireframe1.png)
