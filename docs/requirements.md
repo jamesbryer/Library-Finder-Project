@@ -29,7 +29,7 @@ Story 3: As a library user, I want to see the opening times of my local librarie
 | **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
 | **Issues** | Lack of experience relating to Google Maps' API could raise problems during development. |
 
-| UC3 | See opening times of nearest Libraries | 
+| UC3 | See Contact Information of nearest Libraries | 
 | --- | -------------------------------------- |
 | **Description** | Display Contact Information for a Specified Library |
 | **Actors** | Library User |
