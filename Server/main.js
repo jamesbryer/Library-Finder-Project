@@ -8,6 +8,7 @@ const QUERY = "SELECT * FROM `libraries`";
 var app = express();
 
 // Configure Express to use embedded JavaScript (EJS)
+app.set('views', __dirname + '/Views');
 app.set("view engine", "ejs");
 
 // Serve static content (images etc) from 'static' folder
@@ -39,9 +40,9 @@ var connection = mysql.createConnection(conf.db);
 // Use connection to connect to database
 connection.connect(function(err){
 	if (err) {
-    	console.error("Connection error: ", err.message);    
+    	console.error("Connection error:", err.message);    
 	} else {
-    	console.log("Connected as: ", connection.threadId);    
+    	console.log("Connected as:", connection.threadId);    
 	}
 });
 
