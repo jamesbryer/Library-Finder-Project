@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <%- include("templates/head.ejs"); %>
+    <body>
+        <div class="grid-container">
+            <%- include("templates/header.ejs"); %>
+            <%- include("templates/nav.ejs"); %>
+            <main>
+                <table class="w3-table w3-striped w3-bordered">
+                    <tr><th>Library Name</th><th>Locality</th><th>Postcode</th><th>Telephone</th></tr>
+                <% for (var i=0; i<rows.length; i++) { %>
+                <tr>
+                    <td><%= rows[i]['Library Name'] %></td>
+                    <td><%= rows[i].Locality %></td>
+                    <td><%= rows[i].Postcode %></td>
+                    <td><%= rows[i].Telephone %></td>
+                </tr>
+                <% } %>
+                </table>
+            </main>
+        </div>
+    </body>
+</html>

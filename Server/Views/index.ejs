@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <%- include("templates/head.ejs"); %>
+    <body>
+        <div class="grid-container">
+            <%- include("templates/header.ejs"); %>
+            <%- include("templates/nav.ejs"); %>
+            <main>
+                <form class="w3-container w3-green" action="table.html">
+                    <select class="w3-select w3-border" name="option" onchange="this.form.submit()">
+                        <option value="" disabled selected>Select your Postcode zone</option>
+                        <!-- INSERT ONSELECT EVENT ONSELECT="MYFUNCTION()"-->
+                        <option value="1">BS1</option>
+                        <option value="2">BS2</option>
+                        <option value="3">BS3</option>
+                        <option value="4">BS4</option>
+                        <option value="5">BS5</option>
+                        <option value="6">BS7</option>
+                        <option value="7">BS8</option>
+                        <option value="8">BS9</option>
+                        <option value="9">BS10</option>
+                        <option value="10">BS11</option>
+                        <option value="11">BS13</option>
+                        <option value="12">BS14</option>
+                        <option value="13">BS16</option>
+                        <option value="14">See All</option>
+                    </select>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>

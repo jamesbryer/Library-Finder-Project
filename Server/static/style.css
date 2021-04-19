@@ -1,0 +1,29 @@
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'hd hd hd hd'
+    'nv mn mn mn'
+    'nv mn mn mn';
+    }
+
+header {
+    grid-area: hd;
+    text-align:Center;
+    background-image: url("images/library-image.jpg");
+    background-size: 100%;
+    padding: 10%;
+    }
+
+.heading {font-family:sans-serif; font-size:50px; color:white; font-style: oblique;}
+
+nav {
+    grid-area: nv;
+    padding: 20px;
+    color: aqua;
+}
+
+main {
+    grid-area: mn;
+    padding: 20%;
+}
