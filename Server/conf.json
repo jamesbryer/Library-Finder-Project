@@ -1,9 +1,0 @@
-{
-    "db": {
-        "host": "localhost",
-        "user": "Anour",
-        "password": "anourSQL",
-        "database": "isd"
-    },
-    "port": 8080
-}
