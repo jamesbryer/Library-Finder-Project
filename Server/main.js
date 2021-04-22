@@ -1,31 +1,11 @@
 // Access from browser with http://localhost:8080/
-const { query } = require('express');
 const express = require('express');
 const mysql = require('mysql');
 const conf = require('./conf.json');
 
-let postcodeRegion = ""; // Stores the postcode region the user has entered on the homepage for table.ejs and map.ejs
-let QUERY = `SELECT * FROM isd.libraries WHERE Postcode LIKE '%${postcodeRegion}%'`; // Query for the db, MUST be updated after postcodeRegion changes.
+const QUERY = "SELECT * FROM `libraries` WHERE Postcode LIKE ? order by `Library Name`";
 
 var app = express();
-
-// Dictionary mapping the value of Option to the postcode (1 : BS1, 13 : BS16 etc)
-let postcodeDictionary = {
-    "1" : "BS1",
-    "2": "BS2",
-    "3": "BS3",
-    "4": "BS4",
-    "5": "BS5",
-    "6": "BS7",
-    "7": "BS8",
-    "8": "BS9",
-    "9": "BS10",
-    "10": "BS11",
-    "11": "BS13",
-    "12": "BS14",
-    "13": "BS16",
-    "14": ""
-}; 
 
 // Configure Express to use embedded JavaScript (EJS)
 app.set("view engine", "ejs");
@@ -35,32 +15,41 @@ app.use(express.static('static'));
 
 // Callback function for the splash page request handler
 function splash(request, response) {
-    response.render("index", request.query);
+    var option;
+    if (typeof request.query.option == "undefined") {
+        option = "BS%";
+    }
+    else {
+        option = request.query.option;
+    }
+    response.render("index", {"option":option });
 }
 
 // Splash page (index.html) is served by default
 app.get("/", splash);
 app.get("/index.html", splash);
 
-app.get("/map.html", function(request, response){
-    response.render("map", request.query);
+app.get("/map.html", function(request, response) {
+    connection.query(QUERY, [request.query.option+" %"], function(err, rows) {
+        if (err) {
+            response.status(500);
+            response.send(err);
+        }
+        else {
+            response.render("map", {'rows':rows, "option":request.query.option });
+        }
+    });
 });
 
-app.get("/table.html", function(request, response){
-    postcodeRegion = postcodeDictionary[request.query.option]; // Updates postcode region using the dictionary
-    console.log(postcodeRegion);
-    if (postcodeRegion != null) 
-    {
-        QUERY = `SELECT * FROM isd.libraries WHERE Postcode LIKE '%${postcodeRegion}%'`; // Updates query before use
-    }
-    else
-    {
-        QUERY = `SELECT * FROM isd.libraries`
-    }
-    
-    connection.query(QUERY, function(err, rows, fields) {
-        if (err) throw err;
-        response.render("table", {'rows' : rows, postcodeRegion});
+app.get("/table.html", function(request, response) {
+    connection.query(QUERY, [request.query.option+" %"], function(err, rows) {
+        if (err) {
+            response.status(500);
+            response.send(err);
+        }
+        else {
+            response.render("table", {'rows':rows, "option":request.query.option});
+        }
     });
 });
 

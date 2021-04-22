@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <%- include("templates/head.ejs"); %>
+<%- include("templates/head.ejs"); %>
+
     <body>
         <div class="grid-container">
             <%- include("templates/header.ejs"); %>
-            <%- include("templates/nav.ejs"); %>
-            <main>
-                <!-- iframe from Open Data Bristol -->
-                <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/libraries/map/?location=12,<%= lat %>,<%= lon %>&basemap=jawg.streets&static=false&datasetcard=false&scrollWheelZoom=true" width="800" height="800" frameborder="0"></iframe>
-            </main>
+                <%- include("templates/nav.ejs"); %>
+                    <main>
+                        <div id="mapid"></div>
+                        <script>
+                            const MAP_ZOOM = 11;
+                            var map = L.map('mapid');
+                            map.setView([51.4538, -2.5918], MAP_ZOOM);
+                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                            }).addTo(map);
+
+                            var marker;
+                            <% for (var i = 0; i < rows.length; i++) { %>
+
+                                marker = L.marker([<%= rows[i].geo_point_2d %> ]);
+                                marker.addTo(map);
+                                marker.bindPopup("<%= rows[i]['Library Name'] %>");
+                    
+                            <% } %>
+                        </script>
+                    </main>
         </div>
     </body>
+
 </html>
