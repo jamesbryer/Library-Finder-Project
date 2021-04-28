@@ -17,8 +17,8 @@ Story 3: As a library user, I want to see the contact information of my local li
 | **Actors** | Library User |
 | **Assumptions** | Library User wants to know if there are any Libraries nearby</td></tr>
 | **Steps** | <ol><li>Library User selects their postcode zone</li><li>Program pulls all libraries from database (data taken from Bristol Open Data) that are within their selected zone</li><li>Program displays libraries in a table</li></ol>|
-| **Variations** | <ul><li>Library user wants to view a library out of the BS area - Limitation of Open Data Bristol information, it will only show libraries within Bristol</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
-| **Issues** | There may be no libraries within their zone |
+| **Variations** | <ul><li>Library user wants to view a library out of the BS area - Limitation of Open Data Bristol information, it will only show libraries within Bristol</li></ul> |
+| **Issues** | There may be no libraries within their area, application is designed for Brstol only |
 
 | UC2 | See local Libraries on a map | 
 | --- | ------------------------------ |
