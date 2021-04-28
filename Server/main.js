@@ -66,10 +66,13 @@ connection.connect(function(err){
 	}
 });
 
-app.listen(conf[process.env.NODE_ENV].port);
-console.log("Listening on port %s", conf[process.env.NODE_ENV].port);
+if (process.env.NODE_ENV!='test') {
+    app.listen(conf[process.env.NODE_ENV].port);
+    console.log("Listening on port %s", conf[process.env.NODE_ENV].port);
+}
+
 
 // exports app for testing
 exports.app = app;
 exports.connection = connection;
-exports.splash = splash;
+//exports.splash = splash;
