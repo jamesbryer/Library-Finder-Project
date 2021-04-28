@@ -24,7 +24,7 @@ Story 3: As a library user, I want to see the contact information of my local li
 | --- | ------------------------------ |
 | **Description** | Display Library User's local libraries on a map of the local area |
 | **Actors** | Library User |
-| **Assumptions** | The Library User wants to know the best possible routes to their local libraries </td></tr>
+| **Assumptions** | <ul><li>The Library User wants to know the best possible routes to their local libraries</li><li>Library user wants to go to a different library than they usually do to browse a different book selection</li> </td></tr>
 | **Steps** | <ol><li>Library user enters their postcode and radius</li><li>Program pulls data from Open Data Bristol and Google Maps</li><li>Program displays library locations from ODB on the map from Google Maps</li></ol> |
 | **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
 | **Issues** | Lack of experience relating to Google Maps' API could raise problems during development. |
