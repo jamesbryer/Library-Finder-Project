@@ -13,11 +13,11 @@ Story 3: As a library user, I want to see the contact information of my local li
 
 | UC1 | See a list of nearest Libraries | 
 | --- | ------------------------------- |
-| **Description** | Display the nearest Libraries to Library User in a table format |
+| **Description** | Display the Libraries in a table within a certain postcode area |
 | **Actors** | Library User |
 | **Assumptions** | Library User wants to know if there are any Libraries nearby</td></tr>
-| **Steps** | <ol><li>Library User enters their postcode zone</li><li>Program pulls all libraries from database (data taken from Bristol Open Data) that are within their selected zone</li><li>Program displays libraries in a table</li></ol>|
-| **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
+| **Steps** | <ol><li>Library User selects their postcode zone</li><li>Program pulls all libraries from database (data taken from Bristol Open Data) that are within their selected zone</li><li>Program displays libraries in a table</li></ol>|
+| **Variations** | <ul><li>Library user wants to view a library out of the BS area - Limitation of Open Data Bristol information, it will only show libraries within Bristol</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
 | **Issues** | There may be no libraries within their zone |
 
 | UC2 | See local Libraries on a map | 
