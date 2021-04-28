@@ -6,23 +6,23 @@
 Library User living in Bristol.
 
 ### User stories
-Story 1: As a library user, I want to find my nearest libraries so that I can find the book I want.  
-Story 2: As a library user, I want my nearest libraries marked on a map so that I can find the directions to get there from my present location.  
+Story 1: As a library user, I want to find my nearest library so that I can find the book I want.  
+Story 2: As a library user, I want my nearest library marked on a map so that I can see how far it is from me.  
 Story 3: As a library user, I want to see the contact information of my local libraries so that I can plan a visit.  
 ### Use Cases
 
 | UC1 | See a list of nearest Libraries | 
 | --- | ------------------------------- |
-| **Description** | Display the nearest Libraries to Library User in a list format |
+| **Description** | Display the nearest Libraries to Library User in a table format |
 | **Actors** | Library User |
 | **Assumptions** | Library User wants to know if there are any Libraries nearby</td></tr>
-| **Steps** | <ol><li>Library User enters their search location and radius</li><li>Program pulls all libraries from Bristol Open Data that are within the search radius</li><li>Program displays libraries in order of nearest first</li></ol>|
+| **Steps** | <ol><li>Library User enters their postcode zone</li><li>Program pulls all libraries from database (data taken from Bristol Open Data) that are within their selected zone</li><li>Program displays libraries in a table</li></ol>|
 | **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
-| **Issues** | There may be no results within set search radius |
+| **Issues** | There may be no libraries within their zone |
 
-| UC2 | See nearest Libraries on a map | 
+| UC2 | See local Libraries on a map | 
 | --- | ------------------------------ |
-| **Description** | Display the nearest libraries to Library User on a map of the local area |
+| **Description** | Display Library User's local libraries on a map of the local area |
 | **Actors** | Library User |
 | **Assumptions** | The Library User wants to know the best possible routes to their local libraries </td></tr>
 | **Steps** | <ol><li>Library user enters their postcode and radius</li><li>Program pulls data from Open Data Bristol and Google Maps</li><li>Program displays library locations from ODB on the map from Google Maps</li></ol> |
