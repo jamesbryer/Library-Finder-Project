@@ -19,6 +19,6 @@ Especially during covid-19 pandemic, opening hours and availability can vary and
 1. have user friendly interface
 2. take location input from user
 3. access library data
-4. show library data in order of relevance (nearest first)
+4. show library data in a map and a table
 
 ![Insert your Context Diagram Here](images/Context-Main.png)
