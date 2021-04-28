@@ -25,7 +25,7 @@ Story 3: As a library user, I want to see the contact information of my local li
 | **Description** | Display Library User's local libraries on a map of the local area |
 | **Actors** | Library User |
 | **Assumptions** | <ul><li>The Library User wants to know the best possible routes to their local libraries</li><li>Library user wants to go to a different library than they usually do to browse a different book selection</li> </td></tr>
-| **Steps** | <ol><li>Library user selects their postcode area</li><li>Program pulls data from Open Data Bristol and OpenStreetMaps</li><li>Program displays library locations from ODB on the map from OpenStreetMaps</li></ol> |
+| **Steps** | <ol><li>Library user selects their postcode area</li><li>Program pulls data from the database (which contains data pulled from Open Data Bristol) and OpenStreetMaps</li><li>Program displays library locations from ODB on the map from OpenStreetMaps</li></ol> |
 | **Variations** | <ul><li>Library user wants to view a library out of the BS area - Limitation of Open Data Bristol information, it will only show libraries within Bristol</li></ul> |
 | **Issues** | OpenStreetMaps is not interactive, the user cannot zoom in and out showing libraries in more detail/further away. |
 
@@ -34,7 +34,7 @@ Story 3: As a library user, I want to see the contact information of my local li
 | **Description** | Display Contact Information for a Specified Library |
 | **Actors** | Library User |
 | **Assumptions** | The Library User knows which library they would like to find information about.</td></tr>
-| **Steps** | <ol><li>User selects postcode area.</li><li>Programs pulls data from Open Data Bristol about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
+| **Steps** | <ol><li>User selects postcode area.</li><li>Programs pulls data from the database (which contains data pulled from Open Data Bristol) about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
 | **Variations** | Link from map page for same function |
 | **Issues** | Only information about libraries within the area is displayed, resubmitting the postcode area will be reuqired to view other libraries. |
 
@@ -45,7 +45,7 @@ Story 3: As a library user, I want to see the contact information of my local li
 ### Functional requirements
 
 * FR1: The system must display postcode areas availble (from UC1)
-* FR2: The system must pull data from Open data Bristol (from all use cases)
+* FR2: The system must pull data from Open data Bristol and store it in a database locally for efficiency (from all use cases)
 * FR3: The system shall display libraries within selected area from database (from UC1)
 * FR4: The system shall display Library locations on a map (from UC2)
 * FR5: The system shall display contact information for libraries (from UC3)
