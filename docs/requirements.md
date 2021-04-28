@@ -25,18 +25,18 @@ Story 3: As a library user, I want to see the contact information of my local li
 | **Description** | Display Library User's local libraries on a map of the local area |
 | **Actors** | Library User |
 | **Assumptions** | <ul><li>The Library User wants to know the best possible routes to their local libraries</li><li>Library user wants to go to a different library than they usually do to browse a different book selection</li> </td></tr>
-| **Steps** | <ol><li>Library user enters their postcode and radius</li><li>Program pulls data from Open Data Bristol and Google Maps</li><li>Program displays library locations from ODB on the map from Google Maps</li></ol> |
-| **Variations** | <ul><li>Library user enters an invalid postcode - Validation required</li><li>Library user enters a postcode outside of the BS region - Warning message required (Open Data Bristol only stores data for the BS region)</li></ul> |
-| **Issues** | Lack of experience relating to Google Maps' API could raise problems during development. |
+| **Steps** | <ol><li>Library user selects their postcode area</li><li>Program pulls data from Open Data Bristol and OpenStreetMaps</li><li>Program displays library locations from ODB on the map from OpenStreetMaps</li></ol> |
+| **Variations** | <ul><li>Library user wants to view a library out of the BS area - Limitation of Open Data Bristol information, it will only show libraries within Bristol</li></ul> |
+| **Issues** | OpenStreetMaps is not interactive, the user cannot zoom in and out showing libraries in more detail/further away. |
 
 | UC3 | See Contact Information of nearest Libraries | 
 | --- | -------------------------------------- |
 | **Description** | Display Contact Information for a Specified Library |
 | **Actors** | Library User |
-| **Assumptions** | The Library User has used the website to find the library they would like to get information about.</td></tr>
-| **Steps** | <ol><li>User picks specified library from list previously displayed.</li><li>Programs pulls data from Open Data Bristol about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
+| **Assumptions** | The Library User knows which library they would like to find information about.</td></tr>
+| **Steps** | <ol><li>User selects postcode area.</li><li>Programs pulls data from Open Data Bristol about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
 | **Variations** | Link from map page for same function |
-| **Issues** | Open Data Bristol may have no/partial data about chosen Library |
+| **Issues** | Only information about libraries within the area is displayed, resubmitting the postcode area will be reuqired to view other libraries. |
 
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
@@ -44,9 +44,9 @@ Story 3: As a library user, I want to see the contact information of my local li
 ## Software Requirements Specification
 ### Functional requirements
 
-* FR1: The system must request location input of user, and search radius (from UC1)
+* FR1: The system must display postcode areas availble (from UC1)
 * FR2: The system must pull data from Open data Bristol (from all use cases)
-* FR3: The system shall display libraries within search area from database (from UC1)
+* FR3: The system shall display libraries within selected area from database (from UC1)
 * FR4: The system shall display Library locations on a map (from UC2)
 * FR5: The system shall display contact information for libraries (from UC3)
 
