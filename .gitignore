@@ -2,3 +2,5 @@ conf.json
 node_modules
 .DS_Store
 .DS_Store
+Server/static/.DS_Store
+Server/.DS_Store

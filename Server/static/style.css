@@ -2,10 +2,9 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    'hd hd hd hd hd'
-    'nv mn mn mn mn'
-    'nv mn mn mn mn'
-    'nv mn mn mn mn';
+    'hd hd hd hd'
+    'nv mn mn mn'
+    'nv mn mn mn';
     }
 
 header {
@@ -20,7 +19,8 @@ header {
 
 nav {
     grid-area: nv;
-    padding: 10%;
+    padding: 20px;
+    color: aqua;
 }
 
 main {

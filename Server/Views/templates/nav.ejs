@@ -1,24 +1,7 @@
 <nav>
-    <form class="w3-container w3-blue" action="table.html">
-        <select class="w3-select w3-border w3-blue" name="option" onchange="this.form.submit()">
-            <option value="" disabled selected>Select your Postcode zone</option>
-            <option value="BS1">BS1</option>
-            <option value="BS2">BS2</option>
-            <option value="BS3">BS3</option>
-            <option value="BS4">BS4</option>
-            <option value="BS5">BS5</option>
-            <option value="BS7">BS7</option>
-            <option value="BS8">BS8</option>
-            <option value="BS9">BS9</option>
-            <option value="BS10">BS10</option>
-            <option value="BS11">BS11</option>
-            <option value="BS13">BS13</option>
-            <option value="BS14">BS14</option>
-            <option value="BS16">BS16</option>
-            <option value="BS%">All Libraries in Bristol</option>
-        </select>
-    </form>
     <div class="w3-bar-block w3-blue">
+        <button onclick="location.href='index.html'"  
+            class="w3-bar-item w3-button">Home</button>
         <button onclick="location.href='map.html?option=<%= option %>'"
             class="w3-bar-item w3-button">View in Map</button>
         <button onclick="location.href='table.html?option=<%= option %>'"
