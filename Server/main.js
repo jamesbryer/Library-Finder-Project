@@ -2,6 +2,7 @@
 const express = require('express');
 const mysql = require('mysql');
 const conf = require('./conf.json');
+process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 const QUERY = "SELECT * FROM `libraries` WHERE Postcode LIKE ? order by `Library Name`";
 
@@ -54,7 +55,7 @@ app.get("/table.html", function(request, response) {
 });
 
 // Create connection
-var connection = mysql.createConnection(conf.db);
+var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
 
 // Use connection to connect to database
 connection.connect(function(err){
@@ -65,5 +66,5 @@ connection.connect(function(err){
 	}
 });
 
-app.listen(conf.port);
-console.log("Listening on port %s", conf.port);
+app.listen(conf[process.env.NODE_ENV].port);
+console.log("Listening on port %s", conf[process.env.NODE_ENV].port);
