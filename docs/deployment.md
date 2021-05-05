@@ -11,5 +11,9 @@ Access from browser with http://localhost:8080/
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
 
-![Insert screenshots here](images/screenshot.png)
+UC1:
+images/uc1-1.png
+images/uc1-2.png
+images/uc1-3.png
+![Insert screenshots here]
 TODO: Repeat as necessary
