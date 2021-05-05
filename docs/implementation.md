@@ -22,6 +22,9 @@ TODO: provide a table listing the number of jslint warnings/reports for each mod
 
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+3 tier architecture:
+1. Web app
+2. Web server
+3. Database
 
 ![Insert your component Diagram here](images/component.png)
