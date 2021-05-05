@@ -4,9 +4,7 @@
 This will be the first release version of the application, v1.0.0
 
 ## Project Structure
-All of the project files are located with the folder /server/. A brief description of these files and their purpose is provided below;
-
-TODO: provide a table listing the number of jslint warnings/reports for each module.
+All of the project files are located with the folder /server/. A brief description of these files and their purpose is provided below:
 
 | File | Description | jslint warnings |
 | ---- | ----------- | --------------- |
