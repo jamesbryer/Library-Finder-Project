@@ -5,3 +5,5 @@ node_modules
 Server/static/.DS_Store
 Server/.DS_Store
 Server/.DS_Store
+.DS_Store
+docs/images/.DS_Store
