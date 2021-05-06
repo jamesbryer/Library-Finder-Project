@@ -12,3 +12,4 @@ Server/package.json
 *.json
 *.json
 Server/.DS_Store
+Server/package.json
