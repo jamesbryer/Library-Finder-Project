@@ -7,3 +7,7 @@ Server/.DS_Store
 Server/.DS_Store
 .DS_Store
 docs/images/.DS_Store
+Server/node_modules/express/package.json
+Server/package.json
+*.json
+*.json

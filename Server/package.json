@@ -4,7 +4,8 @@
   "description": "Library Finder",
   "main": "main.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "testcafe": "testcafe chrome e2e"
   },
   "author": "Anour Taylor",
   "license": "ISC",
@@ -14,7 +15,9 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "mocha": "^8.3.2"
+    "eslint": "^7.25.0",
+    "mocha": "^8.3.2",
+    "testcafe": "^1.14.0"
   },
   "directories": {
     "test": "test"
