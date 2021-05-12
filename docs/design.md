@@ -6,7 +6,7 @@ UC1: Library user access web page, they want to see their nearby libraries so th
 
 UC2: Library user accesses the website, wanting to see their local libraries on a map to work out how to get there. They select "View on map". The system accesses the database (data again taken from Open Data Bristol) and gets results including the locations of every library in the area on a local map that is then displayed to them.
 
-UC3: Library user accesses website but wishes to contact a local library, potentially to check the availablility of a given book. They select their postcode zone and click to get results. The system pulls data from the database (again, taken from Open Data Bristol) and gets the results within the postcode presented to them in a table, with the contact information for each library displayed in a column of the table.
+UC3: Library user accesses  wishes to contact a specific local library, potentially to check the availablility of a given book. They select their library of choice and click to get results. The system pulls data from the database (again, taken from Open Data Bristol) and gets the results presented to them in a table, with the contact information for the library displayed in a column of the table.
 
 ## User Interface design
 
