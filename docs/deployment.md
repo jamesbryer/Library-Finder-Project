@@ -22,8 +22,8 @@ TODO: Explain how each use-case works by providing step-by-step screenshots for 
 
 UC3:
 1. Firstly the user will click on 'Select Library'.
-![Insert screenshot here] (images/uc3-1.png)
+![Insert screenshot here](images/uc3-1.png)
 2. Secondly the user will select their library of choice from the menu.
-![Insert screenshot here] (images/uc3-2.png)
+![Insert screenshot here](images/uc3-2.png)
 3. The user will then be displayed the information for the library of choice.
-![Insert screenshot here] (images/uc3-3.png)
+![Insert screenshot here](images/uc3-3.png)
