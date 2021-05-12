@@ -15,12 +15,9 @@ UC1: I tested this three times, it worked every time.
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
 | UC1 | 1 | the request handler should take postcode area selection and query data, returning libraries and displaying in table | pass |
-| UC3 | 1 | the reuqest handler should take library selection and query data and return the chosen library's information | pass |
+| UC3 | FR5 | the reuqest handler should take library selection and query data and return the chosen library's information | pass |
 
 UC2:
 TODO: For each test described above, indicate the current status. 
 Create a requirements traceability matrix to validate the completeness of the product.
 
-UC3:
-TODO: For each test described above, indicate the current status. 
-Create a requirements traceability matrix to validate the completeness of the product.
