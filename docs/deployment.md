@@ -27,4 +27,4 @@ UC3:
 ![Insert screenshot here](images/uc3-2.png)
 3. The user will then be displayed the information for the library of choice.
 ![Insert screenshot here](images/uc3.3.png)
-.
+
