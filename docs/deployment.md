@@ -26,5 +26,5 @@ UC3:
 2. Secondly the user will select their library of choice from the menu.
 ![Insert screenshot here](images/uc3-2.png)
 3. The user will then be displayed the information for the library of choice.
-![Insert screenshot here](images/uc3-3.png)
+![Insert screenshot here](images/uc3.3.png)
 .
