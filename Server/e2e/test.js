@@ -21,3 +21,9 @@ test('table row test', async function (t3) {
         .click(Selector('#postcode-menu > option').filter('[value="BS3"]'))
         .expect(Selector('table > tbody').childElementCount).eql; (2);
 });
+
+test('UC3 library select test', async function (t) {
+    await t
+        .click('#library-menu')
+        .click(Selector('#library-menu > option').filter('[value="Westbury"]'));
+})
