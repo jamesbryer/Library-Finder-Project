@@ -21,4 +21,9 @@ UC2:
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
 
 UC3:
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+1. Firstly the user will click on 'Select Library'.
+![Insert screenshot here] 
+2. Secondly the user will select their library of choice from the menu.
+![Insert screenshot here]
+3. The user will then be displayed the information for the library of choice.
+4. ![Insert screenshot here]
