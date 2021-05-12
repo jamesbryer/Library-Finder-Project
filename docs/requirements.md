@@ -34,7 +34,7 @@ Story 3: As a library user, I want to see the contact information of my local li
 | **Description** | Display Contact Information for a Specified Library |
 | **Actors** | Library User |
 | **Assumptions** | The Library User knows which library they would like to find information about.</td></tr>
-| **Steps** | <ol><li>User selects postcode area.</li><li>Programs pulls data from the database (which contains data pulled from Open Data Bristol) about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
+| **Steps** | <ol><li>User selects library.</li><li>Programs pulls data from the database (which contains data pulled from Open Data Bristol) about the Library</li><li>Program displays contact information and address to the Library User</li></ol> |
 | **Variations** | Link from map page for same function |
 | **Issues** | Only information about libraries within the area is displayed, resubmitting the postcode area will be reuqired to view other libraries. |
 
