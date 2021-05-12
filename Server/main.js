@@ -5,6 +5,7 @@ const conf = require('./conf.json');
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 const QUERY = "SELECT * FROM `libraries` WHERE Postcode LIKE ? order by `Library Name`";
+const QUERYINFO = "SELECT * FROM `libraries` WHERE `Library Name` LIKE ?";
 
 var app = express();
 
@@ -44,6 +45,18 @@ app.get("/map.html", function(request, response) {
 
 app.get("/table.html", function(request, response) {
     connection.query(QUERY, [request.query.option+" %"], function(err, rows) {
+        if (err) {
+            response.status(500);
+            response.send(err);
+        }
+        else {
+            response.render("table", {'rows':rows, "option":request.query.option});
+        }
+    });
+});
+
+app.get("/table.html", function(request, response) {
+    connection.query(QUERYINFO, [request.query.option+" %"], function(err, rows) {
         if (err) {
             response.status(500);
             response.send(err);
