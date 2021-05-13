@@ -11,7 +11,7 @@ People are bored in Lockdown and have decided they want to start reading more bo
 3. Students can easily use the library to study and help improve their coursework.
 
 ### Options Considered
-Google maps will also show nearby libraries, however results can be cluttered with other surrounding points of interest. For this reason, we chose to run with Open Street Maps, as it is much less cluttered than Google Maps and has a good degree of accuracy and coverage ovre Bristol.
+Google maps will also show nearby libraries, however results can be cluttered with other surrounding points of interest. For this reason, we chose to run with Open Street Maps, as it is much less cluttered than Google Maps and has a good degree of accuracy and coverage over Bristol.
 
 ### Expected Risks
 Especially during COVID-19 pandemic, opening hours and availability can vary and it is possible the libraries could be closed.
