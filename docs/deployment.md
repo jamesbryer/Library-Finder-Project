@@ -18,7 +18,12 @@ UC1:
 ![Insert screenshots here](images/uc1-3.png)
 
 UC2:
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+1. Firstly the user will click on "Select your postcode zone"
+![Insert screenshots here](images/uc2-1.png)
+2. Secondly, the user will select their desired postcode zone from the dropdown.
+![Insert screenshots here](images/uc2-2.png)
+3. Finally, the user will see an embed of OpenStreetMaps with the libraries marked on it.
+![Insert screenshots here](images/uc2-3.png)
 
 UC3:
 1. Firstly the user will click on 'Select Library'.
